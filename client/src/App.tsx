@@ -4,7 +4,7 @@ import socket from './utils/socket'
 import { GoogleIdentity } from './components/GoogleIdentity'
 
 const CLIENT_ID =
-    '559293673854-9nc9u8ml9jeie373g1mg62it3q2r0bdv.apps.googleusercontent.com'
+    ''
 
 socket.on('connect', () => {
   console.log('connected')
